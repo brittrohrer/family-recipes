@@ -5,13 +5,13 @@ const recipes = ref([]);
 onMounted(async() => {
     try{
         const response = await fetch(
-        "https://dummyjson.com/recipes"
+        "https://dummyjson.com/recipes?limit=0"
         );
 
         recipes.value = await response.json();
         console.log(recipes.value);
     } catch (error) {
-        console.log(error);
+        console.log('error:' + error);
     }
 })
 
@@ -25,6 +25,7 @@ onMounted(async() => {
                 <Card 
                     :name="r.name"
                     :cuisine="r.cuisine"
+                    :id="r.id"
                 />
             </li>
         </ul>

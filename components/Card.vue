@@ -4,15 +4,17 @@ import { defineProps, ref } from 'vue';
 const recipeProp = defineProps({
     name: String,
     cuisine: String,
+    id: Number,
 })
 </script>
 <template>
-    <div>
         <div>
             <h3>
                 {{ recipeProp.name }}
             </h3>
-            <p>cuisine: {{ recipeProp.cuisine }}</p>
-        </div>
-    </div>
+            <div>
+                <p>cuisine: {{ recipeProp.cuisine }}</p>
+                <p>id: {{ recipeProp.id }}</p>
+            </div>
+         </div>
 </template>
