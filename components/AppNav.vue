@@ -7,7 +7,7 @@ import {ref} from "vue";
     <div class="top-nav">
         <nav class="navbar navbar-expand-lg">
             <div class="navbar-brand">
-                 <NuxtLink class="nav-link" to="/"><img src="/public/logo.png"></NuxtLink>
+                 <NuxtLink class="nav-link" to="/"><img src="/public/Logo.png"></NuxtLink>
             </div>
             <ul class="navbar-nav">
                 <li class="nav-item">
