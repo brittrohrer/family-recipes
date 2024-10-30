@@ -1,12 +1,8 @@
-
 <template>
     <!-- Default Page Structure -->
     <div>
-        <AppHeader />
-        <!-- Header -->
-         
         <!-- Nav -->
-
+        <AppNav />
         <slot />
         <!-- Active Page Content -->
 

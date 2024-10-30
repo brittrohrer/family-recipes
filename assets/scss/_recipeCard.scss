@@ -1,0 +1,49 @@
+.recipe-container {
+    margin: 2rem 4rem;
+    padding: 0;
+}
+.recipe-card {
+    &__container {
+        padding: 2rem;
+        margin: 1rem 0;
+        background: $background-mid;
+        border-radius: 5px;
+        list-style-type: none;
+    }
+    &__name {
+        font-family: "Berkshire Swash", serif;
+    }
+    &__img-container {
+        margin: 0;
+        padding: 1rem;
+    }
+    &__img {
+        width: 100%;
+    }
+
+    &__text-container {
+        margin: 0;
+        padding: 1rem;
+    }
+    &__description p {
+        margin: 0;
+    }
+}
+.ingredients {
+
+    &__list {
+        padding-left: 1rem;
+    }
+    &__item {
+        color: $text-dark;
+    }
+}
+.directions {
+
+    &__list {
+        padding-left: 1rem;
+    }
+    &__item {
+        color: $text-dark;
+    }
+}

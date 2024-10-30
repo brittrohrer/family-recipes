@@ -1,0 +1,21 @@
+
+.page-navigation {
+    background: $background-dark;
+    &__list {
+        list-style-type: none;
+        padding: 1rem 0;
+        margin: 0;
+    }
+    &__title {
+        color: $text-light;
+    }
+    &__item {
+        color: $text-light;
+        margin: 0 2rem;
+        padding: 0 1rem;
+    }
+    &__link {
+        text-decoration: none;
+        color: $text-light;
+    }
+}

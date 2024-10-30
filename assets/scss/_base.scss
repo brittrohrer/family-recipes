@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    color: $text-dark;
+}
+
+.page {
+    position: relative;
+    
+    &__header {
+    margin: 0;
+    padding: 0;
+    background: $background-light;
+    }
+
+    &__title {
+        //font-family: "Oleo Script Swash Caps", system-ui;
+        font-family: "Berkshire Swash", serif;
+        background: $background-light;
+        text-align: center;
+        font-size: 5rem;
+        padding: 2rem;
+    }
+}
+
+.page-top-link-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 3rem;
+    margin: 1rem;
+    padding: .5rem;
+    background: $background-mid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.fa-angle-up {
+    text-align: center;
+    color: $text-dark;
+    font-size: 2rem;;
+}
+.homepage {
+    
+    &__container {
+        background-image: url(https://images.unsplash.com/photo-1639667870348-ac4c31dd31f9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        //position: relative;
+    }
+    &__text-container {
+       position: absolute; 
+       right: 0;
+       top: 30%;
+       margin-right: 3rem;
+       width: 20rem;
+    }
+    &__title {
+        font-family: "Berkshire Swash", serif;
+        text-align: center;
+        font-size: 5rem;
+        color: $text-light;
+    }
+}
