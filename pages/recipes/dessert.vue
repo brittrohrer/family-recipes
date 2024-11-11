@@ -104,11 +104,11 @@ const dessertRecipes = ref([
         <header class="page__header">
             <h1 class="page__title">{{ title }}</h1> 
         </header>
-        <main id="page-top">
+        <main>
             <section class="page-navigation">
-                <ul class="row page-navigation__list">
+                <ul class="page-navigation__list">
                     <li v-for="nav in dessertRecipes" :key="nav"
-                    class=" col-md-2 page-navigation__item">
+                    class="page-navigation__item">
                     <PageNav
                     :id="nav.id2"
                     :name="nav.name"

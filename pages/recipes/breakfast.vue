@@ -83,7 +83,7 @@ const breakfastRecipes = ref([
         <header class="page__header">
             <h1 class="page__title">{{ title }}</h1> 
         </header>
-        <main id="page-top">
+        <main>
             <section class="page-navigation">
                 <ul class="page-navigation__list">
                     <li v-for="nav in breakfastRecipes" :key="nav"

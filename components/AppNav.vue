@@ -4,7 +4,8 @@ import {ref} from "vue";
 
 </script>
 <template>
-    <div class="top-nav">
+    <div class="top-nav"
+         id="page-top">
         <nav class="navbar navbar-expand-lg">
             <div class="navbar-brand">
                  <NuxtLink class="nav-link" to="/"><img src="/public/Logo.png"></NuxtLink>
