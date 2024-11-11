@@ -98,8 +98,7 @@ const drinkRecipes = ref([
             <section>
                 <ul class="recipe-container">
                     <li v-for="recipe in drinkRecipes"
-                        :key="recipe.name"
-                        class="recipe-card__container">
+                        :key="recipe.name">
                         <RecipeCard
                             :name="recipe.name"
                             :time="recipe.time"

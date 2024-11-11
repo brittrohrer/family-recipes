@@ -45,16 +45,16 @@
     
     &__container {
         background-image: url(https://images.unsplash.com/photo-1639667870348-ac4c31dd31f9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-        background-position: center;
+        background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
-        //position: relative;
+        position: relative;
     }
     &__text-container {
        position: absolute; 
        right: 0;
-       top: 30%;
+       top: 0;
        margin-right: 3rem;
        width: 20rem;
     }

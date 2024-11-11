@@ -12,7 +12,7 @@ const recipeProp = defineProps({
 
 </script>
 <template>
-    <div :id="recipeProp.id" class="row">
+    <div :id="recipeProp.id" class="recipe-card__container row">
 
         <div class="recipe-card__img-container col-lg">
             <img class="recipe-card__img img-fluid" :src="recipeProp.image">   
