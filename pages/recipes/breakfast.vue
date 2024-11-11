@@ -85,9 +85,9 @@ const breakfastRecipes = ref([
         </header>
         <main id="page-top">
             <section class="page-navigation">
-                <ul class="row page-navigation__list">
+                <ul class="page-navigation__list">
                     <li v-for="nav in breakfastRecipes" :key="nav"
-                    class=" col-md-2 page-navigation__item">
+                    class="page-navigation__item">
                     <PageNav
                     :id="nav.id2"
                     :name="nav.name"

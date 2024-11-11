@@ -26,10 +26,10 @@
     position: fixed;
     right: 0;
     bottom: 0;
-    height: 3rem;
+    height: 2rem;
     margin: 1rem;
     padding: .5rem;
-    background: $background-mid;
+    background: $background-dark;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,8 +38,8 @@
 }
 .fa-angle-up {
     text-align: center;
-    color: $text-dark;
-    font-size: 2rem;;
+    color: $text-light;
+    font-size: 1.5rem;;
 }
 .homepage {
     

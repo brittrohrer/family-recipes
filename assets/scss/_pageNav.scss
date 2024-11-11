@@ -5,12 +5,15 @@
         list-style-type: none;
         padding: 1rem 0;
         margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        column-gap: .5rem;
     }
     &__title {
         color: $text-light;
     }
     &__item {
-        color: $text-light;
         margin: 0 2rem;
         padding: 0 1rem;
     }
@@ -19,3 +22,12 @@
         color: $text-light;
     }
 }
+@media only screen and (max-width: 600px) {
+    .page-navigation {
+        &__list {
+        flex-direction: column;
+        justify-content: flex-start;
+        }
+    }
+    
+};
