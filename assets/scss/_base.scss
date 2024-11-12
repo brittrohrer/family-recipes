@@ -44,7 +44,7 @@
 .homepage {
     
     &__container {
-        background-image: url(https://images.unsplash.com/photo-1639667870348-ac4c31dd31f9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-image: url(https://images.unsplash.com/photo-1690983323310-3f8e55c9272f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -53,15 +53,14 @@
     }
     &__text-container {
        position: absolute; 
-       right: 0;
-       top: 0;
-       margin-right: 3rem;
-       width: 20rem;
+       top: 40%;
+       left: 60%;
+       transform: translate(-50%, -50%);
     }
     &__title {
         font-family: "Berkshire Swash", serif;
         text-align: center;
-        font-size: 5rem;
+        font-size: max(8vw, 4rem);
         color: $text-light;
     }
 }
